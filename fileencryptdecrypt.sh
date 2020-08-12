@@ -3,7 +3,13 @@
 echo "This is a File Encrypter And Decrypter Tool.."
 echo "Please Choose What Do You Want To DO"
 
-choice="Encrypt Decrypt"
+author(){
+printf "\e[1;92m TOOL IS CREATED BY KRISNA PRANAV \e[1;92m \n"
+printf "\e[1;92m Github Link https://www.github.com/krishpranav \e[1;92m \n"
+printf "\e[1;92m Do Not Forget To Follow ME \e[1;92m \n"
+}
+
+choice="Encrypt / Decrypt"
 
 select option in $choice; do
 	if [$REPLY = 1];
